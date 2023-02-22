@@ -1,5 +1,8 @@
 # customerSurvey
 A frontend application to survey the customers in a shop. 
+
+Starting page: index.html
+
 Every thing is working just fine, from asking question's to storing them on the local databse. 
 Every question and answer's have a unique id and can be identified uniquely.
 And then again redirecting on the welcome screen.
