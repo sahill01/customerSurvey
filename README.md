@@ -6,7 +6,7 @@ Starting page: index.html
 Every thing is working just fine, from asking question's to storing them on the local databse. 
 Every question and answer's have a unique id and can be identified uniquely.
 And then again redirecting on the welcome screen.
-Bur the application is not completed yet.
+But the application is not completed yet.
 It's unble to save every customer's session.
 When the next customer enter's his answer's the first one's answer's are overridden by the second.
 
