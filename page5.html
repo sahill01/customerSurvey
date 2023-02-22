@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Customer Survey</title>
+    <link rel="stylesheet" href="script.css" />
+    <!--Link to CSS -->
+  </head>
+  <body>
+    <div>
+      <h1>Customer Survey</h1>
+      <p1>5/5</p1>
+      <p>5. What could we do to improve our service?</p>
+      <form>
+        <input
+          type="text"
+          id="Ques5"
+          placeholder="Enter Text..."
+          rows="2"
+          cols="30"
+        /><!--Text input-->
+      </form>
+      <a href="page4.html">
+        <button class="button4" style="float: left">Prev</button>
+        <!--Link to previous page -->
+      </a>
+      <a href="confirmation.html">
+        <button class="button3" onclick="textareavalue()" style="float: right">
+          Next
+          <!--Link to next page-->
+        </button>
+      </a>
+    </div>
+    <script src="localstorage.js"></script>
+    <!-- Link to js to upload answers to local database -->
+  </body>
+</html>
